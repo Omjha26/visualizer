@@ -1,0 +1,77 @@
+body{
+
+    background-color:rgb(236, 139, 48);
+}
+
+.top_div{
+    background-color: rgb(48, 47, 47);
+    border: solid white;
+    border-radius: 13px;
+    box-shadow: 7px 7px 20px black;
+    color: aliceblue;
+    margin-bottom: 15px;
+    
+    display: flex;
+    justify-content: center;    
+}
+nav{
+    background-color: rgb(48, 47, 47);
+    box-shadow: 7px 7px 20px black;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    border: solid snow;
+    border-radius: 10px;
+
+}
+
+button{
+    font-size: large;
+    margin: 4px;
+    color: aliceblue;
+    background-color: rgb(49, 48, 48);
+    border: solid white ;
+    border-radius: 13px;
+    padding: 7px;
+    box-shadow: 7px 7px 15px black;
+    
+}
+
+.for_btn_1
+{
+    flex-shrink: 0;
+}
+.sort_btn{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+}
+
+#bar{
+    display: flex;
+
+    
+
+    gap: 2px;
+
+    padding: 3px;
+
+    display: flex; /* Arrange bars horizontally */
+    align-items: flex-end; /* Align bars from the bottom */
+    height: 345px; /* Set the height of the container */
+    margin: 20px;
+    margin-top: 35px;
+    background-color: rgb(46, 48, 47); /* Slightly distinguish the bar area */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+
+    /*Shadow*/
+    box-shadow: 10px 10px 20px black;
+
+}
+
+.bar_div {
+    background-color: red;
+}
